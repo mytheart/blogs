@@ -4,8 +4,8 @@ const app = express()
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.listen(8080, () => {
-  console.log('App listening at port 8080')
+app.listen(8000, () => {
+  console.log('App listening at port 8000')
   console.log((path.join(__dirname, 'public')))
 })
 
